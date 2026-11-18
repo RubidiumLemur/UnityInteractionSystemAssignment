@@ -1,13 +1,20 @@
-# Graybox Door Prototype
+# Unity Interaction System Assignment
 
-A small first-person Unity greybox with a physics hinged door and an automatic sliding door.
+A Unity project submitted for the Interaction System assignment. It’s a comedically small firstperson scene with a **door**, a player controller and a bit of shader work. The shaders were vibe coded from ue5 material generated hlsl. The professor is lwk right about the new input system being hell.
+
+## Running
+
+Open the project in Unity **6000.3.27f1** and press **Play** from `Assets/Scenes/L_Main.unity`.
+
+## What’s here
+
+- First person movement and mouse look
+- A automatic sliding door
+- HUD status and FPS display
+- World space triplanar tiling shader
 
 ## Controls
 
-- **WASD**: Move
-- **Mouse**: Look
-- **Esc**: Release the mouse cursor
-
-Walk into the blue door's trigger to open it. The HUD shows the current FPS and confirms when the door opens; a one-shot chime plays at the same time.
-
-Open with Unity **6000.3.27f1** and press Play. The build scene is `Assets/Scenes/SampleScene.unity`.
+- **WASD** — move
+- **Mouse** — look
+- **Esc** — release the cursor
